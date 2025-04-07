@@ -85,7 +85,7 @@ export default function Login() {
         <Form.Item<FieldType>
           label='Логин'
           name='userName'
-          rules={[{ required: true, message: 'Пожалуйста, введите Ваш логин' }]}
+          rules={[{ required: true, message: 'Пожалуйста, введите Ваш логин в нижнем регистре' }]}
         >
           <Input placeholder='Логин'/>
         </Form.Item>

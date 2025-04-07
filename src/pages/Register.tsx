@@ -97,6 +97,7 @@ export default function Register() {
           name='email'
           validateTrigger='onBlur'
           rules={[
+            { required: true, message: 'Пожалуйста, введите email' },
             {  
               pattern: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
               message: 'Введите корректный адрес электронной почты',
