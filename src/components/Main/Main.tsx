@@ -1,5 +1,5 @@
 import { Outlet, NavLink, useLocation, useNavigate } from 'react-router-dom'
-import { Layout, Flex, Button, ConfigProviderProps, Menu } from 'antd'
+import { Layout, Flex, Button, ConfigProviderProps } from 'antd'
 import { useState } from 'react'
 import './main.scss'
 import { useAppDispatch, useAppSelector } from '../../hooks'

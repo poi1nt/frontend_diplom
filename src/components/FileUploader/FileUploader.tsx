@@ -1,5 +1,5 @@
 import { ChangeEvent, FormEvent, useState } from 'react'
-import { Button, Flex, Input, Upload } from 'antd'
+import { Button, Flex, Input } from 'antd'
 import { CloudUploadOutlined } from '@ant-design/icons'
 import { usersState } from '../../redux/slices/usersSlice'
 import { filesState } from '../../redux/slices/filesSlice'
